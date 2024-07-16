@@ -1,0 +1,39 @@
+@media screen and (max-width: 500px) {
+
+  //------------------------------------------------ Events
+  .events {
+    &__timing {
+      &--event {
+        &__desc {
+          flex-direction: column;
+          row-gap: 2rem;
+
+          div {
+            gap: 2rem;
+
+            p:first-of-type {
+              text-align: center;
+            }
+
+            p:last-of-type {
+              flex-direction: column;
+              gap: 2rem;
+            }
+          }
+
+          &__link {
+            grid-row: 3 / 4;
+            justify-self: center;
+          }
+        }
+      }
+    }
+  }
+
+  //------------------------------------------------ Footer
+  .footer {
+    &>div {
+      flex-basis: 100%;
+    }
+  }
+}

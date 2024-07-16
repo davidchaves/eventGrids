@@ -1,0 +1,9 @@
+.container {
+    display: grid;
+    grid-template-columns: [container-start] repeat(12, minmax(min-content, 12.5rem)); //12.5 * 10 = 125px; 125 * 12 = 1500px desktop
+    justify-content: center;
+}
+
+.overall-layout {
+    grid-column: container-start / container-end;
+}
